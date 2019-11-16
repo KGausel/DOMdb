@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>default | DOMdb</title>
+<temp style="display: None;"></temp>
+<style>
+p[type="bool"] {
+    font-weight: bold;
+    background: orange;
+}
+p[type="string"] {
+    font-style: italic;
+    background: green;
+}
+p[type="int"] {
+    text-decoration: underline;
+    background: #9595f5;
+}
+div[key="password"]>p[type="string"] {
+  position: relative;
+  white-space: pre;
+    background: black;
+    border-radius: 0.1em;
+    box-shadow: 0 0 1px rgba(0,0,0,0.35);
+    content: " ";
+    width: 100%;
+    height: 1.2em;
+    left: 0;
+    position: absolute;
+    transform: skewY(-5deg) rotate(5deg);
+}
+div.true p{
+  position: relative;
+  white-space: pre;
+    background: black;
+    border-radius: 0.1em;
+    box-shadow: 0 0 1px rgba(0,0,0,0.35);
+    content: " ";
+    width: 100%;
+    height: 1.2em;
+    left: 0;
+    position: absolute;
+    transform: skewY(-5deg) rotate(5deg);
+}
+</style>
+<metadata></metadata>
+</head>
+<body>
+<!--<div id="abc">
+    <ol>
+    <li><p type="bool">true</p></li>
+    <li><p type="string">hello world</p></li>
+    <li><ol>
+    <li><p type="bool">true</p></li>
+    <li><p type="string">hello world</p></li>
+    <li><p type="int">10</p></li>
+    </ol></li>
+    </ol>
+</div>
+<div id="abcd">
+    <p type="bool">true</p>
+</div>
+<div id="testdicts">
+    <div type="object">
+        <div key="testkey"><p type="string">value</p></div>
+        <div key="testkey2"><p type="int">1</p></div>
+    </div>
+</div>-->
+</body>
+</html>
