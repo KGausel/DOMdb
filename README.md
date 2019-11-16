@@ -3,7 +3,7 @@ An in-memory datastore leveraging the powerful V8 engine and python
 
 Warning: This project is a joke
 
-This project won the "Hacking Stupid" category during Aarhack in November 2019
+This project won the "Hacking Stupid" category during Aarhack in November 2019, an event hosted by [Destination AARhus](https://destinationaarhus.com/)
 
 # Getting started
 
